@@ -60,19 +60,40 @@ class ViewController: UIViewController {
         var secondInput = 0.0
         firstInput = Double(first)!
         secondInput = Double(second)!
+    
         
         if function == "+" {
             result = firstInput + secondInput
-            calculatorDisplay.text = String(result)
+            if result.truncatingRemainder(dividingBy: 1) == 0 {
+                calculatorDisplay.text =  String(format: "%.0f", result)
+            }
+            else {
+                calculatorDisplay.text =  String(format: "%.2f", result)
+            }
         } else if function == "-" {
             result = firstInput - secondInput
-            calculatorDisplay.text = String(result)
+            if result.truncatingRemainder(dividingBy: 1) == 0 {
+                calculatorDisplay.text =  String(format: "%.0f", result)
+            }
+            else {
+                calculatorDisplay.text =  String(format: "%.2f", result)
+            }
         } else if function == "*" {
             result = firstInput * secondInput
-            calculatorDisplay.text = String(result)
+            if result.truncatingRemainder(dividingBy: 1) == 0 {
+                calculatorDisplay.text =  String(format: "%.0f", result)
+            }
+            else {
+                calculatorDisplay.text =  String(format: "%.2f", result)
+            }
         } else {
             result = firstInput / secondInput
-            calculatorDisplay.text = String(result)
+            if result.truncatingRemainder(dividingBy: 1) == 0 {
+                calculatorDisplay.text =  String(format: "%.0f", result)
+            }
+            else {
+                calculatorDisplay.text =  String(format: "%.2f", result)
+            }
         }
     }
     @IBAction func decimalButton(_ sender: Any) {
