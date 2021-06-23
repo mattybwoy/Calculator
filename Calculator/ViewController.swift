@@ -30,6 +30,10 @@ class ViewController: UIViewController {
         calculatorDisplay.text = "0"
     }
     
+    @IBAction func negativepositiveButton(_ sender: Any) {
+    }
+    @IBAction func percentButton(_ sender: Any) {
+    }
     @IBAction func divideButton(_ sender: Any) {
         function = "/"
         first = userInput
