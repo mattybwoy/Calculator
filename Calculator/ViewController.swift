@@ -20,6 +20,22 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func animate(_ sender: UIButton) {
+        sender.transform = CGAffineTransform(scaleX: 0.6, y: 0.6)
+
+        UIView.animate(withDuration: 2.0,
+                                   delay: 0,
+                                   usingSpringWithDamping: CGFloat(0.20),
+                                   initialSpringVelocity: CGFloat(6.0),
+                                   options: UIView.AnimationOptions.allowUserInteraction,
+                                   animations: {
+                                    sender.transform = CGAffineTransform.identity
+            },
+                                   completion: { Void in()  }
+        )
+    }
     @IBOutlet weak var calculatorDisplay: UILabel!
     
     @IBAction func clearButton(_ sender: Any) {
@@ -103,6 +119,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func zeroButton(_ sender: Any) {
+        
         calculatorDisplay.text = ""
         userInput += "0"
         calculatorDisplay.text! += userInput

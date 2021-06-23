@@ -40,6 +40,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="01l-ag-HJ8"/>
                                             <action selector="oneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lac-hw-YJd"/>
                                         </connections>
                                     </button>
@@ -57,6 +58,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W0o-Hj-AlO"/>
                                             <action selector="twoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Igf-vi-3UA"/>
                                         </connections>
                                     </button>
@@ -74,6 +76,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zB5-G8-NyS"/>
                                             <action selector="threeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VbY-QI-M88"/>
                                         </connections>
                                     </button>
@@ -92,6 +95,7 @@
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WZZ-WB-hR4"/>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mEG-tN-0Oe"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfF-tY-fkN">
@@ -108,6 +112,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vLa-Ux-6ra"/>
                                             <action selector="fourButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UNg-Wd-JpQ"/>
                                         </connections>
                                     </button>
@@ -125,6 +130,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VfT-1e-eVM"/>
                                             <action selector="fiveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icR-dK-2K2"/>
                                         </connections>
                                     </button>
@@ -142,6 +148,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icn-qN-fxV"/>
                                             <action selector="sixButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bRY-SL-Xa2"/>
                                         </connections>
                                     </button>
@@ -159,6 +166,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HGH-HM-ztd"/>
                                             <action selector="sevenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Rg-po-9ep"/>
                                         </connections>
                                     </button>
@@ -176,6 +184,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iqy-Y1-QDZ"/>
                                             <action selector="eightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NcZ-a7-L6J"/>
                                         </connections>
                                     </button>
@@ -193,6 +202,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y8s-Ip-Pcu"/>
                                             <action selector="nineButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qs2-Kk-ldm"/>
                                         </connections>
                                     </button>
@@ -210,6 +220,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZIL-oj-6l1"/>
                                             <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Urn-tG-qLk"/>
                                         </connections>
                                     </button>
@@ -227,6 +238,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tg9-wK-YcD"/>
                                             <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gPd-Ga-JEe"/>
                                         </connections>
                                     </button>
@@ -244,6 +256,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ge4-8z-gHw"/>
                                             <action selector="negativepositiveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vOo-1K-sD8"/>
                                         </connections>
                                     </button>
@@ -261,6 +274,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7NE-R6-gA6"/>
                                             <action selector="percentButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HMC-FL-7Cz"/>
                                         </connections>
                                     </button>
@@ -278,6 +292,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wtx-j4-kyr"/>
                                             <action selector="zeroButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yvu-bR-40E"/>
                                         </connections>
                                     </button>
@@ -295,6 +310,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZBz-fn-9Ed"/>
                                             <action selector="decimalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5rM-QT-9hc"/>
                                         </connections>
                                     </button>
@@ -312,6 +328,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLD-u1-Y9b"/>
                                             <action selector="equalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LXl-HT-6LZ"/>
                                         </connections>
                                     </button>
@@ -329,6 +346,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QtK-Af-zj0"/>
                                             <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4Y-lM-Fas"/>
                                         </connections>
                                     </button>
@@ -346,6 +364,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="animate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zEt-gS-nFf"/>
                                             <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bxw-8Y-6a2"/>
                                         </connections>
                                     </button>
